@@ -1,0 +1,31 @@
+#Display{
+    display:block;
+    color: deeppink;
+    text-align: center;
+    font-size: 5em;
+}
+body{
+    background-color:cadetblue;
+}
+.buttons{
+    font-size: 2em;
+    padding: 16px;
+    margin : 20px;
+    border:none;
+    transition: background-color 0.25s;
+    border-radius:12px;
+    box-shadow: 0 9px #c2bebe;
+}
+.buttons:hover{
+    background-color: #04AA6D;
+    color:white;
+}
+.buttons:active{
+    transition: tansform 0.25s;
+    transition: box-shadow 0.25s;
+    transform: translateY(4px);
+     box-shadow: 0 5px #c2bebe;
+}
+#buttonContainer{
+    text-align: center;
+}
